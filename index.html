@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Work</title>
+    <meta name="description" content="Harry Work 的个人网站，分享技术博客、工作心得。">
+    <meta name="keywords" content="Harry Work, 博客, 技术, 工作, 生活">
+    <meta name="author" content="Harry Work">
+    
+    <!-- 网站图标 -->
+    <link rel="icon" type="image/x-icon" href="https://ihogu-1251903635.cos.ap-shanghai.myqcloud.com/site/img/favicon.ico">
+    <link rel="shortcut icon" href="https://ihogu-1251903635.cos.ap-shanghai.myqcloud.com/site/img/favicon.ico">
+    <link rel="apple-touch-icon" href="https://ihogu-1251903635.cos.ap-shanghai.myqcloud.com/site/img/favicon.ico">
+    
+    <!-- 外部CSS文件 -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- SEO和社交媒体标签 -->
+    <meta property="og:title" content="Harry Work - 个人网站">
+    <meta property="og:description" content="分享技术博客、工作心得和生活感悟">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    
+    <!-- 预加载重要资源 -->
+    <link rel="preload" href="./js/app.js" as="script">
+    <link rel="preload" href="./data/data.json" as="fetch" crossorigin>
+</head>
+<body>
+    <div class="container">
+        <!-- 语言切换按钮 -->
+        <div class="language-switcher">
+            <a href="https://eve.ihogu.com" target="_blank">❤️Eve</a>
+            <!-- 语言按钮将由JavaScript动态生成 -->
+        </div>
+
+        <div class="header">
+            <!-- 主要内容区域 -->
+            <div class="main-content">
+                <div id="message">
+                    <h1>Harry Work</h1>
+                    <p id="welcome">欢迎来到我的个人网站</p>
+                </div>
+
+                <!-- 导航链接 -->
+                <div class="go2blogwork" id="go2blogwork">
+                    <!-- <a href="https://blog.ihogu.com" target="_blank">博客📝</a> -->
+                    <a href="https://app.ihogu.com" target="_blank">软件📱</a>
+                </div>
+            </div>
+
+            <!-- 诗词展示区域 -->
+            <div class="main-shici">
+                <!-- 诗词内容将由JavaScript动态加载 -->
+            </div>
+        </div>
+
+        <!-- 页脚信息 -->
+        <div class="icp">
+            <p>© 2024 Harry Work. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- 隐藏的离线资源 -->
+    <div id="offline-resources" style="display: none;">
+        <!-- 用于离线缓存的资源 -->
+    </div>
+
+    <!-- 外部JavaScript文件 -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
